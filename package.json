@@ -1,0 +1,25 @@
+{
+    "name": "webhooks-project-js",
+    "version": "1.0.0",
+    "description": "Nylas webhooks project",
+    "main": "webhooks_skeleton.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha --compilers js:babel-core/register"
+    },
+    "dependencies": {
+        "sqlite3": "^4.0.2"
+    },
+    "devDependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "gulp": "^3.9.1",
+        "gulp-mocha": "^6.0.0"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    }
+}
